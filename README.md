@@ -2,7 +2,7 @@
 本插件基于原生Javascript代码，无需jQuery即可正常运行.
 
 ## 使用方法
-使用方式非常简单：只需在** &lt;/body&gt;** 之前调用以下js文件：
+使用方式非常简单：只需在&lt;/body&gt;之前调用以下js文件：
 ```Javascript
 //确保安装有git
 git clone https://github.com/BiYuqi/shame-ie.git
