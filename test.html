@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>屏蔽IE6,7浏览器</title>
+        <style>
+            .mockie{
+                width: 400px;
+                height: 160px;
+                margin: 150px auto;
+                text-align: center;
+                padding: 20px 10px;
+                background-color: #F6F6F6;
+            }
+            .mockie div{
+                color: #16A05D;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .mockie p{
+                background-color: #5EBBAE;
+                width: 150px;
+                border-radius: 6px;
+                cursor: pointer;
+                margin: 0 auto;
+                height: 60px;
+                line-height: 60px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="mockie">
+            <div>除非升级新版本,或者更换其他浏览器,否者拒绝浏览本网站</div>
+            <p id="test">点击模拟ie6,7</p>
+        </div>
+        <script src="testjs.js"></script>
+        <script>
+            document.getElementById('test').onclick = function(){
+                Test();
+            }
+        </script>
+    </body>
+</html>
